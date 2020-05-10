@@ -9,6 +9,7 @@ import basics.strings.mod_strings ;
 import basics.pointers.mod_pointers ;
 import basics.tuples.mod_tuples ;
 import basics.structs.mod_structs ;
+import source.basics.mod_mixins.mod_mixins;
 import std.stdio; 
 import std.typecons; 
 int main()
@@ -85,8 +86,13 @@ int main()
 	Books book3 =  {title:"Obj C programming".dup, book_id : 1001};
    printBook( book3 ); 
 
+	/********Mixins***********/
 
-
+	//----string mixins-----
+	mixin_string("mixin foobar string") ;
+	writeln(getStringMixin("Foo")) ;
+	writeln(getStringMixin("Bar")) ;
+	
 
    	return 0;
 }
