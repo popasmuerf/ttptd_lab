@@ -1,0 +1,1 @@
+url: https://www.tutorialspoint.com/d_programming/d_programming_strings.htm

@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/ttpt_lab
+ttpt_lab.so
+ttpt_lab.dylib
+ttpt_lab.dll
+ttpt_lab.a
+ttpt_lab.lib
+ttpt_lab-test-*
+*.exe
+*.o
+*.obj
+*.lst

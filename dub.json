@@ -1,0 +1,9 @@
+{
+	"authors": [
+		"Da Mo"
+	],
+	"copyright": "Copyright © 2020, Da Mo",
+	"description": "A lab for learning Dlang https://www.tutorialspoint.com/d_programming/d_programming_decisions.htm",
+	"license": "BSD License",
+	"name": "ttpt_lab"
+}
